@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row{
+      padding-top:30px;
+  }
+
+  .container, .card-body{
+    padding:30px;
+  }
+
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    float: left;
+    width: 85%;
+    background: white;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    border-radius: 4px;
+    background: #8BBA4C;
+    color: white;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #6A8D48;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
